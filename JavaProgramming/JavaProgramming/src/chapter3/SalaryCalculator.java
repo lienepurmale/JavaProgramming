@@ -12,8 +12,7 @@ public class SalaryCalculator {
         //Initialize the know values
         int salary = 1000;
         int bonus = 250;
-
-
+        int quota = 10;
 
         //Get what I do not know
         System.out.println("Please enter how many sales the employee made this week");
@@ -22,7 +21,7 @@ public class SalaryCalculator {
         scanner.close();
 
         //Quick detour for the bonus earners
-        if (sales > 10){
+        if (sales > quota){
             salary = salary + bonus;
         }
 
