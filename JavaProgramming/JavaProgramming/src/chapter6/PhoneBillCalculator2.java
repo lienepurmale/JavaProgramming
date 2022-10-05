@@ -5,5 +5,12 @@ package chapter6;
 
 public class PhoneBillCalculator2 {
 
+    public static void main(String args[]){
+
+        PhoneBill bill = new PhoneBill();
+        bill.setMinutesUsed(30000);
+        bill.printBill();
+    }
+
 
 }
