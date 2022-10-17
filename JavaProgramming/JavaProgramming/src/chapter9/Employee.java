@@ -6,7 +6,7 @@ public class Employee extends Person{
     private int employeeId;
 
     public Employee(){
-       super("Liene"); // Explicit call 
+       super("Liene"); // Explicit call
         System.out.println("In Employee default constructor");
     }
 
