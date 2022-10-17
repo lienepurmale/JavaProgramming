@@ -7,4 +7,9 @@ public class Square extends Rectangle{
         return sides * lenght;
 
     }
+
+    @Override
+    public void print(String what) {
+        System.out.println("I am " + what);
+    }
 }
