@@ -25,7 +25,7 @@ public class Exception  {
     public static void createNewFileRethrow() throws IOException {
         File file = new File("resources/nonexistent.txt");
         file.createNewFile();
-        
+
     }
 
 
